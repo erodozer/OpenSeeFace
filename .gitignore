@@ -6,3 +6,6 @@ Samples/*
 *.7z
 CSharp/*
 VSeeFace/*
+build/
+dist/
+.python-version

@@ -129,8 +129,9 @@ When distributing it, you should also distribute the `Licenses` folder along wit
 
 The release builds contain a custom build of ONNX Runtime without telemetry.
 
-# Dependencies (Python 3.6 - 3.9)
+# Dependencies
 
+* Python >= 3.11
 * ONNX Runtime
 * OpenCV
 * Pillow
@@ -145,16 +146,9 @@ install all dependencies for this project in a separate virtual env:
 
      poetry install
 
-# Dependencies
+PyEnv is recommended for managing the python version.
 
-* onnxruntime
-* OpenCV
-* Pillow
-* Numpy
-
-The required libraries can be installed using pip:
- 
-	pip install onnxruntime opencv-python pillow numpy
+If building a binary, pyinstaller is also required, and included when using poetry.
 
 # References
 
